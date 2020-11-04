@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dummy.DataAccess\Dummy.DataAccess.csproj" />
+    <ProjectReference Include="..\Dummy.Model\Dummy.Model.csproj" />
+  </ItemGroup>
+
+</Project>

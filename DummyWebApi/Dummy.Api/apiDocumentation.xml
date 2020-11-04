@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dummy.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Dummy.Api.Controllers.DummiesController">
+            <summary>
+            Allows access to Dummies CRUD
+            </summary>
+        </member>
+        <member name="M:Dummy.Api.Controllers.DummiesController.#ctor(Dummy.Business.Dummies.IDummy,AutoMapper.IMapper)">
+            <summary>
+            Dummies controller
+            </summary>
+            <param name="dummy"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:Dummy.Api.Controllers.DummiesController.Get">
+            <summary>
+            Allows to get all Dummies
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Dummy.Api.Controllers.DummiesController.GetById(System.String)">
+            <summary>
+            Allows to get a Dummy by an ID
+            </summary>
+            <param name="id">Dummy ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dummy.Api.Controllers.DummiesController.Post(Dummy.DTO.Dummy)">
+            <summary>
+            Allows to create new Dummies
+            </summary> 
+            <param name="value">Dummy object</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dummy.Api.Controllers.DummiesController.Put(Dummy.DTO.Dummy)">
+            <summary>
+            Allows to update a Dummy by id
+            </summary>
+            <param name="value"></param>
+            <returns></returns>       
+            <response code="200">Returns Dummy updated</response>
+        </member>
+        <member name="M:Dummy.Api.Controllers.DummiesController.Delete(System.String)">
+            <summary>
+            Allows to delete Dummy by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>       
+            <response code="200">Returns Dummy updated</response>
+        </member>
+    </members>
+</doc>
